@@ -1,0 +1,584 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.footer-r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  background-color: #f5eceb;
+}
+
+.nav-item {
+  display: flex;
+  display: inline;
+  margin: 20px;
+  border: solid 1px #9f5864;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.nav-item:hover {
+  background-color: #9b525298;
+}
+
+.nav-item a {
+  color: #6c3057;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+    margin: 1px;
+    padding: 2px;
+  }
+  .footer-lista {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 50px;
+  }
+  .navbar-toggler {
+    height: 30px;
+    width: 30px;
+  }
+  .nav-item {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1px;
+  }
+  .heather_nav_lista {
+    flex-direction: column;
+  }
+  .footer-r {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    align-content: space-around;
+    align-content: inherit;
+    align-content: baseline;
+  }
+  .heather {
+    flex-direction: colum;
+    flex-wrap: wrap;
+  }
+  .video-coder {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 px 0px 0px 0px;
+  }
+  .heather_tamanio {
+    flex-direction: column;
+  }
+  .heather_logo {
+    flex-direction: column;
+  }
+  .imagenes-galeria-oleo {
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+  .heather_nav {
+    display: colum;
+    justify-content: center;
+  }
+  .footer-lista1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 42px;
+    justify-content: center;
+    margin: 0px !important;
+    padding: 0px 0px 0px 0px;
+    padding: 0px;
+    align-content: center;
+  }
+  .wspicon {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+  .iconoig {
+    height: 20px;
+    width: 20px;
+  }
+  .iconofb {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .parrafo-index {
+    display: none;
+  }
+  .parrafito {
+    display: none;
+  }
+  .container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  #navbarNav {
+    margin: 0px;
+    padding: 0px;
+  }
+  .nav-item {
+    padding: 1px !important;
+    margin: 1px !important;
+  }
+  .heather_tamanio {
+    width: 100px;
+    width: 100px;
+  }
+  h1 {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .navbar-brand {
+    font-size: 12px !important;
+  }
+  .navbar-toggler {
+    width: 28px;
+    height: 28px;
+  }
+  .navbar-toggler-icon {
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+  .rostro-grafito-bootstrap {
+    width: 200px;
+  }
+  .profes-arte-bootstrap {
+    width: 240px;
+    margin: 0px 0px 0px 0px !important;
+  }
+  .footer-lista {
+    align-content: space-around;
+  }
+  .container-informacion {
+    margin: 0px 0px 0px 0px;
+  }
+  .container-3 {
+    margin: 0px 0px 0px 0px;
+  }
+  .rostro-1 {
+    width: 150px;
+    width: 150px;
+    margin: 0px !important;
+  }
+  .paisaje-bootstrap {
+    width: 150px;
+    width: 150px;
+    margin: 0px !important;
+  }
+  .hermoso-paisaje {
+    text-align: start;
+  }
+  .colores-primarios {
+    height: 100px !important;
+    width: 100px !important;
+    margin: 0px 0px 6px 0px !important;
+  }
+  .opinion {
+    margin: 0px !important;
+  }
+  .contacto-cuadrados {
+    margin: 0px !important;
+  }
+  .esculturaa {
+    width: 150px;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px;
+  }
+  .galeria2 {
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .galeria {
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .hombre-oleo1 {
+    width: 118px;
+    height: 119px !important;
+  }
+  .arboles {
+    width: 118px;
+    height: 119px !important;
+  }
+  .imagenes-galeria-oleo {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .mapita {
+    margin: 0px !important;
+    height: 180px;
+    width: 200px;
+  }
+  .ubicacion-mapa {
+    margin: 0px !important;
+  }
+  .miami {
+    margin: 0px !important;
+  }
+}
+
+.footer-r {
+  flex-direction: column;
+  background-color: #d1b6b4;
+  width: 100%;
+  height: 150px;
+}
+
+.footer-r .img-redes {
+  height: 50px;
+  width: 50px;
+}
+
+.footer-r .footer-lista {
+  display: flex;
+}
+
+.footer-r .footer-lista1 {
+  display: flex;
+  padding: 10px;
+  border: solid 1px #9f5864;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.footer-r .wspicon {
+  padding: 14px;
+}
+
+.footer-r .footer-lista1:hover {
+  background-color: #9b525298;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hombre-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.perfil-mujer-oleo1:hover {
+  transform: translate(10px, 10px);
+}
+
+.arboles:hover {
+  transform: translate(10px, 10px);
+}
+
+.florcitas:hover {
+  transform: translate(10px, 10px);
+}
+
+.rostro-hombre-grafito:hover {
+  transform: translate(10px, 10px);
+}
+
+/*galeria grid*/
+.galeria {
+  color: #9f5864;
+  padding: 10px 0px 5px 120px;
+}
+
+.galeria2 {
+  color: #de6666;
+  padding: 0px 0px 5px 169px;
+}
+
+.imagenes-galeria-oleo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-rows: 300px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.prueba:hover {
+  box-shadow: 1px 1px 3px grey;
+  transform: rotate(30deg);
+}
+
+.hombre-oleo1 {
+  grid-row: 1/2;
+  grid-column: 2;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.perfil-mujer-oleo1 {
+  grid-column: span 1;
+  grid-row: span 1;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.arboles {
+  width: 100%;
+  height: 100%;
+  grid-row: 1/2;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.rostro-hombre-grafito {
+  height: 100%;
+  width: 100%;
+  grid-row: 3;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.florcitas {
+  grid-column: 1;
+  grid-row: 3;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-shadow: 1px 1px 3px grey;
+}
+
+.ubicacion-mapa {
+  padding: 10px 10px 10px 10px;
+  color: #9f5864;
+  margin: 0 43%;
+}
+
+.miami {
+  padding: 8px 8px 8px 8px;
+  margin: 0 43%;
+}
+
+.mapita {
+  margin: 0 34%;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.ubicacion-boot {
+  padding-left: 10px;
+}
+
+.paisaje-bootstrap {
+  padding-bottom: 20px;
+  margin: 0px 0px 0px 100px;
+}
+
+.hermosa-escultura-mujer {
+  color: #9f5864;
+}
+
+.escultura-rostro-mujer {
+  color: #9f5864;
+}
+
+.hermoso-paisaje {
+  color: #9f5864;
+  padding: 0px 0px 0px 100px;
+}
+
+.esculturaa {
+  margin: 0px 20px 0px 100px;
+}
+
+.contacto-cuadrados {
+  margin: 0 38%;
+  padding: 15px 0px 20px 20px;
+}
+
+.contacto-x2 {
+  height: 50vh;
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.contacto-boot2 {
+  padding-left: 20px;
+}
+
+.contacto-boot {
+  padding-top: 30px;
+  padding-left: 20px;
+}
+
+.opinion {
+  margin: 0 25%;
+  color: #9f5864;
+  padding-left: 20px;
+}
+
+.colores-primarios-1 {
+  color: #9f5864;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+@keyframes colores-primarios {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.colores-primarios {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  margin: 50px;
+  animation-name: colores-primarios;
+  animation-duration: 6s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  text-align: center;
+}
+
+.obras-reconocidas {
+  color: #9f5864;
+}
+
+.rostro-grafito-bootstrap {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.hermoso-paisaje {
+  text-align: center;
+}
+
+.hermosa-escultura-mujer {
+  text-align: center;
+}
+
+.video-coder {
+  display: flex;
+  height: 25%;
+  width: 25%;
+}
+
+.video-coder-bootstrap {
+  height: 25%;
+  width: 25%;
+  padding: 5px 0px 20px 20px;
+  margin: 0 35%;
+}
+
+.conoce {
+  padding: 10px 0px 10px 10px;
+  color: #bb6262;
+  margin: 0 15%;
+}
+
+.video-coder {
+  height: 25%;
+  width: 25%;
+  padding: 10px 0px 10px 10px;
+  display: flex;
+}
+
+.obras-abstractas {
+  color: #de6666;
+  padding-left: 10px;
+  margin: 0 40%;
+  margin-top: 5px;
+}
+
+.contacto-cuadrados {
+  padding: 15px 0px 20px 20px;
+}
+
+.maestros_texto {
+  padding: 10px;
+  margin: 10px;
+}
+
+.ph-maestros {
+  padding: 10px;
+}
+
+.profes-arte-bootstrap {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.acerca-de-bootstrap {
+  padding-left: 10px;
+}
+
+.acerca-de-bootstrap {
+  color: #9f5864;
+  padding-left: 10px;
+}
+
+.datos-curiosos {
+  color: #9f5864;
+}
+
+.figure-caption-text-end {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.profes-arte-bootstrap {
+  margin: 0 70%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.opinion {
+  margin: 0 20%;
+}
+/*# sourceMappingURL=main.css.map */

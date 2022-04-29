@@ -1,0 +1,17 @@
+.nav-item {
+  display: map-get($mapflex, display);
+  display: inline;
+  margin: 20px;
+  border: solid 1px #9f5864;
+  padding: 10px;
+  border-radius: 10px;
+
+  &:hover {
+    background-color: $lihover;
+  }
+
+  a {
+    color: $color-letra-nav;
+    text-decoration: none;
+  }
+}

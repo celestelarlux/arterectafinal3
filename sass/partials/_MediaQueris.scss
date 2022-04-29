@@ -1,0 +1,263 @@
+@media screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+    margin: 1px;
+    padding: 2px;
+  }
+
+  .footer-lista {
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .navbar-toggler {
+    height: 30px;
+    width: 30px;
+  }
+
+  .nav-item {
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1px;
+  }
+
+  .heather_nav_lista {
+    flex-direction: column;
+  }
+
+  .footer-r {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    align-content: space-around;
+    align-content: inherit;
+    align-content: baseline;
+  }
+
+  .heather {
+    flex-direction: colum;
+    flex-wrap: wrap;
+  }
+
+  .video-coder {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0 px 0px 0px 0px;
+  }
+
+  .heather_tamanio {
+    flex-direction: column;
+  }
+
+  .heather_logo {
+    flex-direction: column;
+  }
+
+  .imagenes-galeria-oleo {
+    grid-template-columns: 100%;
+    grid-auto-rows: 100%;
+    grid-gap: 2px;
+  }
+
+  .heather_nav {
+    display: colum;
+    justify-content: center;
+  }
+
+  .footer-lista1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 40px;
+    height: 42px;
+    justify-content: center;
+    margin: 0px !important;
+    padding: 0px 0px 0px 0px;
+    padding: 0px;
+    align-content: center;
+  }
+
+  .wspicon {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+
+  .iconoig {
+    height: 20px;
+    width: 20px;
+  }
+
+  .iconofb {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .parrafo-index {
+    display: none;
+  }
+
+  .parrafito {
+    display: none;
+  }
+
+  .container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+
+  #navbarNav {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .nav-item {
+    padding: 1px !important;
+    margin: 1px !important;
+  }
+
+  .heather_tamanio {
+    width: 100px;
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 10px;
+  }
+
+  h2 {
+    font-size: 10px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  h4 {
+    font-size: 12px;
+  }
+
+  .navbar-brand {
+    font-size: 12px !important;
+  }
+
+  .navbar-toggler {
+    width: 28px;
+    height: 28px;
+  }
+
+  .navbar-toggler-icon {
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+  }
+
+  .rostro-grafito-bootstrap {
+    width: 200px;
+  }
+
+  .profes-arte-bootstrap {
+    width: 240px;
+    margin: 0px 0px 0px 0px !important;
+  }
+
+  .footer-lista {
+    align-content: space-around;
+  }
+
+  .container-informacion {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .container-3 {
+    margin: 0px 0px 0px 0px;
+  }
+
+  .rostro-1 {
+    width: 150px;
+    width: 150px;
+    margin: 0px !important;
+  }
+
+  .paisaje-bootstrap {
+    width: 150px;
+    width: 150px;
+    margin: 0px !important;
+  }
+
+  .hermoso-paisaje {
+    text-align: start;
+  }
+
+  .colores-primarios {
+    height: 100px !important;
+    width: 100px !important;
+    margin: 0px 0px 6px 0px !important;
+  }
+
+  .opinion {
+    margin: 0px !important;
+  }
+
+  .contacto-cuadrados {
+    margin: 0px !important;
+  }
+
+  .esculturaa {
+    width: 150px;
+    margin: 0px 0px 0px 0px !important;
+    padding: 0px;
+  }
+
+  .galeria2 {
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .galeria {
+    margin: 0px;
+    padding: 0px !important;
+  }
+  .hombre-oleo1 {
+    width: 118px;
+    height: 119px !important;
+  }
+  .arboles {
+    width: 118px;
+    height: 119px !important;
+  }
+  .imagenes-galeria-oleo {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .mapita {
+    margin: 0px !important;
+    height: 180px;
+    width: 200px;
+  }
+  .ubicacion-mapa {
+    margin: 0px !important;
+  }
+  .miami {
+    margin: 0px !important;
+  }
+}
